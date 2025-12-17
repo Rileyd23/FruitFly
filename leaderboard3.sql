@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS gamedata;
+USE gamedata;
+
+CREATE TABLE IF NOT EXISTS Leaderboard (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    userName VARCHAR(50) NOT NULL,
+    score INT NOT NULL
+);
